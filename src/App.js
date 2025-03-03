@@ -54,7 +54,7 @@ function App() {
           <Routes>
             {/*<Route path="/" element={<Dashboard />} />*}
             {/*<Route path="/pie" element={<PieChart />} />*/}
-            <Route path="/" element={<LoginButton />} />
+            <Route path="/Dashboard-Test-Page/" element={<LoginButton />} />
             <Route path="/auth/callback" element={<AuthCallback />} />
             <Route path="/dashboard" element={<Dashboard token/>} />
           </Routes>
