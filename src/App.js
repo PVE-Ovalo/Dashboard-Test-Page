@@ -54,9 +54,9 @@ function App() {
           <Routes>
             {/*<Route path="/" element={<Dashboard />} />*}
             {/*<Route path="/pie" element={<PieChart />} />*/}
-            <Route path="/Dashboard-Test-Page/" element={<LoginButton />} />
-            <Route path="/Dashboard-Test-Page/auth/callback" element={<AuthCallback />} />
-            <Route path="/Dashboard-Test-Page/dashboard" element={<Dashboard token/>} />
+            <Route path="/" element={<LoginButton />} />
+            <Route path="/auth/callback" element={<AuthCallback />} />
+            <Route path="/dashboard" element={<Dashboard token/>} />
           </Routes>
         </DndProvider>
      
